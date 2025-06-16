@@ -1,0 +1,35 @@
+body{
+    margin : auto;
+    border: 1px solid black;
+    border-radius: 20%;
+    border-spacing: 5%;
+}
+#display {
+    text-align: center;
+    background: #eef2ff;
+    border-radius: 16px;
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: right;
+    min-height: 60px;
+    box-shadow: inset 0 0 8px rgba(67, 56, 202, 0.15);
+    overflow-x: auto;
+    user-select: none;
+}
+.Lower{
+    display: flex;
+    padding-left: 20%;
+}
+/*
+.button{
+    
+}
+*/
+.LEFT{
+    align-content: end;
+    
+}
+.RIGHT{
+    align-content: start;
+}

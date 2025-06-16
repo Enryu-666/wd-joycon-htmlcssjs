@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JoyCon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <!-- buat komponen yang menggambarkan controller @MUTAMA -->
@@ -43,5 +45,25 @@
     <!--  -->
     <!-- kamu boleh menambahkan sprite di samping textscreen yang sudah ada @POINPLUS -->
     <!-- di ujung kanan bawah, tambahkan informasi NIM, nama, dan link Github @UTAMA -->
+    <div id="display" class="display" aria-label="Console display" aria-multiline="false" tabindex="0">
+        
+    </div>
+    <div class="buttons" role="grid" aria-label="Calculator buttons">
+        <div>
+            <button type="button" class="button UP" data-key="UP">Up</button>
+            <button type="button" class="button Down" data-key="DOWN">Down</button>
+            <button type="button" class="button Left" data-key="LEFT">Left</button>
+            <button type="button" class="button right" data-key="RIGHT">Right</button>
+        </div>
+        <div>
+            <button type="button" class="button char" data-key="A">A</button>
+            <button type="button" class="button char" data-key="B">B</button>
+        </div>
+      </div>
+    <footer class="project-footer">
+        <p>23430237</p>
+        <p>Julian Wong</p>
+        <p>https://github.com/Enryu-666/wd-joycon-htmlcssjs.git</p>
+    </footer>
 </body>
 </html>

@@ -28,26 +28,18 @@ function clearAll() {
 }
 
 function inputText() {
-    if (currentInput === '...') {
-        currentInput = '';
-    } else {
-        currentInput += num;
-    }
     updateDisplay(currentInput);
 }
 
 
 // Button click events
-buttons.forEach(button => {
+button.forEach(button => {
     button.addEventListener('click', () => {
         const value = button.textContent;
         const dataKey = button.getAttribute('data-key');
-        if (button.classList.contains('number')) {
-            inputNumber(dataKey);
-        }
+        inputText(dataKey);
     });
 });
 
 
 // Initialize
-clearAll();
